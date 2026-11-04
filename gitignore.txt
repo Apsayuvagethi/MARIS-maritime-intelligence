@@ -1,0 +1,77 @@
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+
+# =========================
+# Python notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Large datasets
+# =========================
+data/*
+datasets/*
+
+# Keep documentation inside data/
+!data/README.md
+
+# =========================
+# Large ML model files
+# =========================
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# Coverage
+# =========================
+.coverage
+htmlcov/
